@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+.header-container {
+  height: 300px;
+}
+
+.header-container h1::before{
+  content: "";
+  display: inline-block;
+  background-image: url(エレキギターのアイコン1.png);
+  width: 48px;/*画像の幅*/
+  height: 48px;/*画像の高さ*/
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.sitetitle{
+  position: relative;
+  height: 200px;
+}
+
+.sitetitle h1{
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);
+  -webkit-transform : translateX(-50%);
+  transform : translateX(-50%);
+}
+
+.sitetitle p{
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);
+  -webkit-transform : translateX(-50%);
+  transform : translateX(-50%);
+}
+
+.main-img{
+  height: 800px;
+  width: 1349px;
+  opacity: 0.8;
+}
+
+.main-profile{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 250px;
+  text-align: center;
+}
+
+.profile-img-icon{
+  height: 200px;
+  width: 150px;
+  float: left;
+}
+
+.profile-img{
+  margin-left: 250px;
+}
+
+.profile-title{
+  margin: 10 auto 10 750px;
+}
+
+.parsol::before{
+  content: '';
+  display: inline-block;
+  background-image: url(parsol.png);
+  width: 15px;/*画像の幅*/
+  height: 15px;/*画像の高さ*/
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.skill::before{
+  content: '';
+  display: inline-block;
+  background-image: url(本アイコン.png);
+  width: 15px;
+  height: 15px;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.like::before{
+  content: '';
+  display: inline-block;
+  background-image: url(スポーツシューズアイコン2.png);
+  width: 15px;
+  height: 15px;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.parsol{
+  margin: 10 auto 10 750px;
+}
+
+.skill{
+  margin: 10 auto 10 750px;
+}
+
+.like{
+  margin: 10 auto 10 750px;
+}
+
+.footer h2::before{
+  content: '';
+  display: inline-block;
+  background-image: url(戦いのアイコン.png);
+  width: 15px;/*画像の幅*/
+  height: 15px;/*画像の高さ*/
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.footer h2::after{
+  content: '';
+  display: inline-block;
+  background-image: url(戦いのアイコン.png);
+  width: 15px;/*画像の幅*/
+  height: 15px;/*画像の高さ*/
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.my-goal {
+  font-size: 30px;
+  color: gold;
+}
+
+.the-goal{
+  height: 470px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+  color:white;
+  position: absolute;
+  top: 5px;
+  left: 750px; 
+  font-size: 22px;
+}
+
+.main-goal{
+  height: 500px;
+  position: relative;
+  background-image: url(f-22.jpg);
+  background-size: cover;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.sports-icon {
+  text-align: right;
+}
